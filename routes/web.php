@@ -3,7 +3,9 @@
 use App\Http\Controllers\CertificatController;
 use App\Http\Controllers\DemandeurController;
 use App\Http\Controllers\PersonnelController;
+use App\Http\Controllers\FonctionController;
 use App\Models\Personnel;
+use App\Models\Fonction;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,6 +33,10 @@ Route::post('demandeur', [DemandeurController::class, 'store'])->name("demandeur
 Route::post('demande/{id}', [DemandeurController::class, 'update'])->name("updateDemande");
 Route::get('certificatPrint', [CertificatController::class, 'printCertificat'])->name("printCertificat");
 
+Route::get('fonction', [FonctionController::class, 'index'])->name("fonction");
+Route::post('fonction', [FonctionController::class, 'store'])->name("fonctionSave");
+Route::post('fonction/delete', [FonctionController::class, 'destroy'])->name("fonctionDelete");
+Route::post('fonction/{idFonction}', [FonctionController::class, 'update'])->name("updateFonction");
 
 
 

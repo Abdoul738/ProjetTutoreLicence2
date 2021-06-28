@@ -33,7 +33,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="index3.html" class="nav-link">Accueil</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -164,7 +164,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Abdoul Faycal</a>
         </div>
       </div>
 
@@ -198,7 +198,7 @@
                     </li>
                     <li class="nav-item">
                         
-                        <a href="/personnel" class="nav-link">
+                        <a href="/fonction" class="nav-link">
                             <i class="nav-icon fas fa-th"></i>
                             <p>
                               Fonctions du personnel
